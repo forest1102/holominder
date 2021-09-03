@@ -1,0 +1,28 @@
+{
+  "name": "holominder",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/forest1102/holominder.git",
+  "author": "issei morita <isseimorita1@gmail.com>",
+  "license": "MIT",
+  "volta": {
+    "node": "14.17.6",
+    "yarn": "1.22.11"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

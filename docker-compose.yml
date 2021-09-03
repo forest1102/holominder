@@ -1,0 +1,9 @@
+version: '2'
+services:
+  development:
+    build:
+      context: ./
+      dockerfile: ./dockers/development/dockerfile
+    tty: true
+    volumes:
+      - .:/workspaces/
